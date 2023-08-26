@@ -24,6 +24,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -121,7 +122,7 @@ Partial Class Form1
         ' 
         Button1.Image = My.Resources.Resources.salvar
         Button1.ImageAlign = ContentAlignment.MiddleLeft
-        Button1.Location = New Point(27, 526)
+        Button1.Location = New Point(68, 450)
         Button1.Name = "Button1"
         Button1.Size = New Size(138, 73)
         Button1.TabIndex = 8
@@ -133,7 +134,7 @@ Partial Class Form1
         ' 
         Button2.Image = My.Resources.Resources.hombre_Eliminar
         Button2.ImageAlign = ContentAlignment.MiddleLeft
-        Button2.Location = New Point(234, 526)
+        Button2.Location = New Point(281, 450)
         Button2.Name = "Button2"
         Button2.Size = New Size(125, 73)
         Button2.TabIndex = 9
@@ -158,9 +159,9 @@ Partial Class Form1
         Panel1.Controls.Add(Label4)
         Panel1.Controls.Add(TextBox2)
         Panel1.Controls.Add(Label3)
-        Panel1.Location = New Point(27, 65)
+        Panel1.Location = New Point(27, 48)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(272, 411)
+        Panel1.Size = New Size(304, 365)
         Panel1.TabIndex = 10
         ' 
         ' CheckBox3
@@ -214,16 +215,16 @@ Partial Class Form1
         Label7.AutoSize = True
         Label7.Location = New Point(28, 235)
         Label7.Name = "Label7"
-        Label7.Size = New Size(60, 15)
+        Label7.Size = New Size(55, 15)
         Label7.TabIndex = 12
-        Label7.Text = "*Telefono:"
+        Label7.Text = "Telefono:"
         ' 
         ' Label6
         ' 
         Label6.AutoEllipsis = True
         Label6.AutoSize = True
         Label6.ForeColor = Color.DodgerBlue
-        Label6.Location = New Point(249, 30)
+        Label6.Location = New Point(124, 19)
         Label6.Name = "Label6"
         Label6.Size = New Size(82, 15)
         Label6.TabIndex = 15
@@ -233,7 +234,7 @@ Partial Class Form1
         ' 
         Button3.Image = My.Resources.Resources.salir
         Button3.ImageAlign = ContentAlignment.MiddleLeft
-        Button3.Location = New Point(572, 526)
+        Button3.Location = New Point(575, 450)
         Button3.Name = "Button3"
         Button3.Size = New Size(125, 73)
         Button3.TabIndex = 12
@@ -265,10 +266,11 @@ Partial Class Form1
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Image = My.Resources.Resources.perfilhombre1
-        PictureBox1.Location = New Point(470, 142)
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Drawing.Image)
+        PictureBox1.Location = New Point(478, 142)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(133, 134)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 15
         PictureBox1.TabStop = False
         ' 
@@ -276,7 +278,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(750, 650)
+        ClientSize = New Size(750, 538)
         Controls.Add(PictureBox1)
         Controls.Add(RadioButton2)
         Controls.Add(RadioButton1)

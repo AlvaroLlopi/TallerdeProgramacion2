@@ -282,7 +282,7 @@ Partial Class MDIPequeñoSistema
         ' OptionsToolStripMenuItem
         ' 
         OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        OptionsToolStripMenuItem.Size = New Size(124, 22)
+        OptionsToolStripMenuItem.Size = New Size(180, 22)
         OptionsToolStripMenuItem.Text = "&Opciones"
         ' 
         ' WindowsMenu
@@ -458,7 +458,7 @@ Partial Class MDIPequeñoSistema
         ToolStripStatusLabel.Size = New Size(42, 17)
         ToolStripStatusLabel.Text = "Estado"
         ' 
-        ' MDIParent1
+        ' MDIPequeñoSistema
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -469,7 +469,7 @@ Partial Class MDIPequeñoSistema
         IsMdiContainer = True
         MainMenuStrip = MenuStrip
         Margin = New Padding(4, 3, 4, 3)
-        Name = "MDIParent1"
+        Name = "MDIPequeñoSistema"
         Text = "Pequeño sistema"
         MenuStrip.ResumeLayout(False)
         MenuStrip.PerformLayout()

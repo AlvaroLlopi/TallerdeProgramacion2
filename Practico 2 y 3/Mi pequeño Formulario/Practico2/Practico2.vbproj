@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\hombre.png" />
+    <None Remove="Resources\mujer.png" />
+    <None Remove="Resources\perfilhombre.png" />
+    <None Remove="Resources\perfilhombre1.png" />
+    <None Remove="Resources\perfilmujer.png" />
+    <None Remove="Resources\perfilmujer1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />

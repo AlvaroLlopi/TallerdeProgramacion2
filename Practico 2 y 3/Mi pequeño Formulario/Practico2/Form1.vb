@@ -57,9 +57,9 @@ Public Class Form1
 
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
         If RadioButton1.Checked Then
-            PictureBox1.Image = My.Resources.perfilhombre1
+            PictureBox1.Image = My.Resources.perfilhombre2
         Else
-            PictureBox1.Image = My.Resources.perfilmujer1
+            PictureBox1.Image = My.Resources.perfilmujer2
         End If
     End Sub
 

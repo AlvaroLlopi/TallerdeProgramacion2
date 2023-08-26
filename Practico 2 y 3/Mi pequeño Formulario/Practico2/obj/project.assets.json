@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\llopi\\Downloads\\Mi pequeño Formulario\\Practico2\\Practico2.vbproj",
+      "projectUniqueName": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\Practico 2 y 3\\Mi pequeño Formulario\\Practico2\\Practico2.vbproj",
       "projectName": "Practico2",
-      "projectPath": "C:\\Users\\llopi\\Downloads\\Mi pequeño Formulario\\Practico2\\Practico2.vbproj",
+      "projectPath": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\Practico 2 y 3\\Mi pequeño Formulario\\Practico2\\Practico2.vbproj",
       "packagesPath": "C:\\Users\\llopi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\llopi\\Downloads\\Mi pequeño Formulario\\Practico2\\obj\\",
+      "outputPath": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\Practico 2 y 3\\Mi pequeño Formulario\\Practico2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\llopi\\AppData\\Roaming\\NuGet\\NuGet.Config",
