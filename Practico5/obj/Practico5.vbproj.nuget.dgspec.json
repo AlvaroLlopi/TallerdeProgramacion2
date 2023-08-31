@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\practico4.vbproj": {}
+    "D:\\Taller de Programacion 2\\Practico5\\Practico5.vbproj": {}
   },
   "projects": {
-    "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\practico4.vbproj": {
+    "D:\\Taller de Programacion 2\\Practico5\\Practico5.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\practico4.vbproj",
-        "projectName": "practico4",
-        "projectPath": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\practico4.vbproj",
+        "projectUniqueName": "D:\\Taller de Programacion 2\\Practico5\\Practico5.vbproj",
+        "projectName": "Practico5",
+        "projectPath": "D:\\Taller de Programacion 2\\Practico5\\Practico5.vbproj",
         "packagesPath": "C:\\Users\\llopi\\.nuget\\packages\\",
-        "outputPath": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\obj\\",
+        "outputPath": "D:\\Taller de Programacion 2\\Practico5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\llopi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "dependencies": {
-            "WinForms.DataVisualization": {
-              "target": "Package",
-              "version": "[1.8.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

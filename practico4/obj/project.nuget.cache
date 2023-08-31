@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GyBCwvR1j0ruzQ+m5mAdWNgdxD7UKdftcxnxm2xiWiArOH5F44v45qJNrAdptfOqFCkgDEc45fVaU3XxOtw1Hw==",
+  "dgSpecHash": "z2tzdDZQpYuMrZoPMB3P/sOcVmK+SAtcGW8wCF+5+KTXTDqHIw4rAznr4c+6G7Kqfjza88OHeUXQFCcDw8i8Nw==",
   "success": true,
-  "projectFilePath": "D:\\Taller de Programacion 2\\practico4\\practico4.vbproj",
+  "projectFilePath": "D:\\Taller de Programacion 2\\TallerdeProgramacion2\\practico4\\practico4.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\llopi\\.nuget\\packages\\winforms.datavisualization\\1.8.0\\winforms.datavisualization.1.8.0.nupkg.sha512"
   ],
